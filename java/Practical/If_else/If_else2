@@ -1,0 +1,14 @@
+
+
+class If{
+	public static void main(String[] s){
+		int num=-11;
+		if(num%13==0){
+			System.out.println( num + "  Num is in table of 13");
+		}
+		else{
+
+			System.out.println( num + "  Num is not in table of 13");
+		}
+	}
+}
