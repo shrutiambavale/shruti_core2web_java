@@ -1,6 +1,6 @@
 
 
-class For{
+class For5{
 	public static void main(String[] s){
 		int n=1;
 		for(int i=1;i<=34;i++){

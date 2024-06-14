@@ -1,6 +1,6 @@
 
 
-class For{
+class For8{
 	public static void main(String[] s){
 		int n=140;
 		for(int i=1;i<=10;i++){

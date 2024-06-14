@@ -1,6 +1,6 @@
 
 
-class If{
+class If6{
 	public static void main(String[] S){
 		int num=21;
 		if (num%3==0){

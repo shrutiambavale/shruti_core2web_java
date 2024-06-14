@@ -1,5 +1,5 @@
 import java.util.*;
-class Arr{
+class Arr10{
 	public static void main(String[] S){
 		Scanner sc=new Scanner(System.in);
 		System.out.println("Enter Size: ");
@@ -9,13 +9,15 @@ class Arr{
 		for(int i=0;i<s;i++){
 			arr[i]=sc.nextInt();
 		}
-		int min=arr[0];
-		for(int i=0;i<s-1;i++){
-		int f=1;
-			for(int j=1;j<arr[i];j++){
-				f=f*j;
-			}
-		System.out.println(f);
+		System.out.println("Output:");
+		for(int i=0;i<s;i++){
+		int f=1;	
+		int j=1;
+		while(j<=arr[i]){
+			f=f*j;
+			j++;
+		}
+		System.out.print(f+" ");
 	}
 			
 	}

@@ -1,5 +1,5 @@
 
-class If{
+class If1{
 	public static void main(String[] s)
 	{
 		int num=26;

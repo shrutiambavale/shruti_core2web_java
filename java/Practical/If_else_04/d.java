@@ -1,7 +1,7 @@
 
 
 
-class If{
+class If4{
 	public static void main(String[] s)
 	{
 		float p=85.00f;

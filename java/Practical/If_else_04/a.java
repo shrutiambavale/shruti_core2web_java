@@ -1,6 +1,6 @@
 
 
-class If{
+class If1{
 	public static void main(String[] s){
 		int v=100;
 		if(v<=1000 && v>0){

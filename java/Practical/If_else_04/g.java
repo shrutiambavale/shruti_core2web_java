@@ -1,6 +1,6 @@
 
 
-class If{
+class If7777777{
 	public static void main(String[] s){
 		int p=500;
 		if(p>500)

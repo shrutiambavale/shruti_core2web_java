@@ -1,5 +1,5 @@
 import java.util.*;
-class Arr{
+class Arr7{
 	public static void main(String[] s){
 		int c=0;
 		Scanner cs=new Scanner(System.in);

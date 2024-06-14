@@ -1,6 +1,6 @@
 
 
-class For{
+class Fo3{
 	public static void main(String[] s){
 		int n=1;
 		for(int i=50;i<=100;i++){

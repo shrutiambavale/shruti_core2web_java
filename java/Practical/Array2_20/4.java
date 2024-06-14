@@ -1,5 +1,5 @@
 import java.util.*;
-class Arr{
+class Arr4{
 	public static void main(String[] gs){
 		Scanner sc=new Scanner(System.in);
 		System.out.print("Enter size:");

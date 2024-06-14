@@ -1,6 +1,6 @@
 
 
-class If{
+class If7{
 	public static void main(String[] S){
 		int num1=5;
 		int num2=9;

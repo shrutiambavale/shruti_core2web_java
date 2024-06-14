@@ -1,6 +1,6 @@
 
 
-class If{
+class If8{
 	public static void main(String[] s){
 		int num=10;
 		if(num%2==0 && num%5==0 && num%10==0)

@@ -1,7 +1,7 @@
 
 
 
-class If{
+class If10{
 	public static void main(String[] s){
 	 int num=13;
 	 if(num==1){

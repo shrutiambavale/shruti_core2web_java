@@ -1,5 +1,5 @@
 import java.util.*;
-class Squa{
+class Squa9{
 	public static void main(String[] s){
 		Scanner sc=new Scanner(System.in);
 		System.out.println("Enter No of Rows:");

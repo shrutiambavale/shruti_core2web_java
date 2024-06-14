@@ -1,29 +1,21 @@
 import java.util.*;
-class Arr{
+class Arr9{
 	public static void main(String[] S){
 		Scanner sc=new Scanner(System.in);
-		System.out.println("Enter Size: ");
-		int s=sc.nextInt();
-		int arr[]=new int[s];
-		System.out.println("Enter Size: ");
-		for(int i=0;i<s;i++){
-			arr[i]=sc.nextInt();
-		}
+		System.out.println("Enter Num: ");
+		int num=sc.nextInt();
 
-		int flag=0;
-		int min=arr[0];
-		for(int i=0;i<s-1;i++){
-			if(arr[i]<arr[i+1]){	
-				flag=0;
-			}else{
-				flag=1;
+		int arr[]=new int[9];
+		int rem[]=new int[9];
+		for(int i=0;i<arr.length;i++){
+			while(num>0){
+				rem[i]=num%10;
+				rem[i]++;
+				num=num/10;
+			System.out.print(rem[i]+" ");
 			}
 		}
-		if(flag==0){
-			System.out.println("Array is in ascending order");
-		}else{
-			System.out.println("Array is not in ascending order");
-		}
+
 	}
 }
 

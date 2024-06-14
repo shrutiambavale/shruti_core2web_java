@@ -1,6 +1,6 @@
 
 
-class For{
+class Fo8{
 	public static void main(String[] s){
 		int n=11;
 		int e=1;

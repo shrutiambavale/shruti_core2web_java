@@ -1,6 +1,6 @@
 import java.util.*;
 
-class Mix{
+class Mix5{
 	public static void main(String[] s){
 		Scanner sc=new Scanner(System.in);
 		System.out.println("Enter No of rows:");

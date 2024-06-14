@@ -1,6 +1,6 @@
 
 
-class If{
+class If6{
 	public static void main(String[] s){
 		int a=-31;
 		if(a>18){

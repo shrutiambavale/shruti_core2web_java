@@ -1,6 +1,6 @@
 
 
-class If{
+class If2{
 	public static void main(String[] s){
 		int v=156;
 		if(v%13==0){

@@ -1,4 +1,4 @@
-class If{
+class If4{
 	public static void main(String[] s){
 		char ch=97;
 		if(ch==97  && ch<=122)

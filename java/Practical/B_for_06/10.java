@@ -1,6 +1,6 @@
 
 
-class For{
+class For10{
 	public static void main(String[] s){
 		int n=1;
 		for(int i=1;i<=10;i++){

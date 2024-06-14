@@ -1,25 +1,24 @@
 import java.util.*;
-class Arr{
-	public static void main(String[] gs){
-		Scanner sc=new Scanner(System.in);
-		System.out.print("Enter size:");
-		int size=sc.nextInt();
-		char arr[]=new char[size];
-		char c=0;
-		System.out.print("Enter characters:");
-		for(int i=0;i<size;i++){
-			arr[i]=sc.nextChar();
-		}
-		
+class Arr3{
+        public static void main(String[] args){
+                Scanner sc=new Scanner(System.in);
+                System.out.println("Enter Size:");
+                int s=sc.nextInt();
+                char arr[]=new char[s];
+                System.out.println("Enter Elements:");
+                for(int i=0;i<s;i++){
+                        arr[i]=sc.next().charAt(0);
+                }
 
-		for(int i=0;i<size;i++){
-			if(arr[i]=='A' || arr[i]=='E' || arr[i]=='I' || arr[i]=='O' || arr[i]=='U' || arr[i]='a' || arr[i]=='o' || arr[i]=='u' || arr[i]=='e' || arr[i]='i' ){
-				System.out.print(arr[i]+" found at index "+i);
-			
-			}
-		}
-	
-	}
+                for(int i=0;i<arr.length;i++){
+                        if(arr[i]=='a' || arr[i]=='e'  || arr[i]=='i' || arr[i]=='o' || arr[i]=='u' || arr[i]=='A' || arr[i]=='E' || arr[i]=='I' || arr[i]=='O' || arr[i]=='U'){
+
+                        System.out.println(arr[i]+"found at index "+i);
+                        }else{
+                        System.out.println("Not found");
+                }
+                }
+        }
 }
 
 

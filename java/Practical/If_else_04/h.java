@@ -1,7 +1,7 @@
 
 
 
-class If{
+class If88888888{
 	public static void main(String[] s)
 	{
 		float m=85.00f;

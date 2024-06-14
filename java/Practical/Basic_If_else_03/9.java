@@ -1,7 +1,7 @@
 
 
 
-class If{
+class If9{
 	public static void main(String[] s){
 	 int num=4;
 	 if(num==1){

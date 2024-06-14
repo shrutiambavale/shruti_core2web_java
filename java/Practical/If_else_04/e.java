@@ -1,6 +1,6 @@
 
 
-class If{
+class If5{
 	public static void main(String[] s){
 		float v=89.96f;
 		if(v%6==0){
